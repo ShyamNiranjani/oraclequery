@@ -1,1 +1,0 @@
-create table empps(name varchar(50),id number(2));
