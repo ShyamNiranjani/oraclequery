@@ -1,0 +1,11 @@
+DECLARE
+	a number;
+BEGIN
+	a := &a;
+	FOR i IN 1..10 LOOP
+		dbms_output.put_line(a || '*' || i || '=' || (a * i));
+	END LOOP;
+END;
+/
+
+
