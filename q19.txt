@@ -1,0 +1,10 @@
+DECLARE
+	a number := 10;
+BEGIN
+	IF MOD(a,2) = 0 THEN
+		dbms_output.put_line(a || ' THIS IS EVEN NUMER');
+	ELSE
+		dbms_output.put_line(a || ' THIS IS ODD NUMBER');
+	END IF;
+END;
+/
